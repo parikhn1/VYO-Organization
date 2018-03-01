@@ -1,0 +1,75 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Bhajan board</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="@Url.Action("Dashboard_1", "Dashboards")">Home</a>
+            </li>
+            <li>
+                <a>Documnets</a>
+            </li>
+            <li class="active">
+                <strong>Bhajan board</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+<h3 style=" color:red">@ViewBag.Message</h3>
+@using (Html.BeginForm("Add", "BhajanDocuments" , FormMethod.Post,new { enctype = "multipart/form-data" } ))
+{
+
+    <div class="col-lg-6">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Shreenathji Bhajan</h5>
+            </div>
+            <div class="ibox-content">
+                <div data-provides="fileinput">
+                    <span class="input-group-addon btn btn-default btn-file">
+                        <input type="file" name="file" id="file" />
+                    </span>
+                    <label hidden id="Shreenathji" >Shreenathji</label>
+                    <input type="submit" value="Submit" name="ShreenathjiBhajan" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Yamunaji Bhajan</h5>
+            </div>
+            <div class="ibox-content">
+                <div data-provides="fileinput">
+                    <span class="input-group-addon btn btn-default btn-file">
+                        <input type="file" name="..." />
+                    </span>
+                   
+                    <input type="submit" value="Submit" name="YamunajiBhajan" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Vallabh Bhajan</h5>
+            </div>
+            <div class="ibox-content">
+                <div data-provides="fileinput">
+                    <span class="input-group-addon btn btn-default btn-file">
+                        <input type="file" name="..." />
+                    </span>
+                    <input type="submit" value="Submit" name="VallabhBhajan" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+}

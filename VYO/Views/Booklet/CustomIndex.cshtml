@@ -1,0 +1,51 @@
+﻿@model VYO.Models.BhajanDocumentModels
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Text Editor</h2>
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Bhajan board</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="@Url.Action("Dashboard_1", "Dashboards")">Home</a>
+            </li>
+            <li>
+                <a>Bhajan Board</a>
+            </li>
+            <li class="active">
+                <strong>Booklet</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+
+@using (Html.BeginForm("SaveFile", "Booklet", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="wrapper wrapper-content">
+        <div class="row">
+            <div class="col-lg">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-content">
+                        @Html.TextAreaFor(model => Model.CustomIndexDetail, new { name = "CustomTextarea", @class = "jqte1-test" });
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <input type="submit" value="Save" name="Continue" />
+            @*<a href="/Booklet/CoverPage" class="btn btn-default semi-circle btn-block btn-sm">
+                <i class="fa fa-shopping-basket mr-10"></i>Continue
+            </a>*@
+
+        </div>
+    </div>
+}
+
+

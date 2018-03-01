@@ -1,0 +1,83 @@
+﻿@model VYO.Models.FinalBookletModel
+
+@{
+    ViewBag.Title = "FinalBooklet";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>FinalBooklet</h2>
+
+
+
+<h2>View</h2>
+
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Bhajan board</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="@Url.Action("Dashboard_1", "Dashboards")">Home</a>
+            </li>
+            <li>
+                <a>Create Bhajan Booklet</a>
+            </li>
+            <li class="active">
+                <strong>Selected List</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+
+<form action="/Booklet/PrintDocuments" method="post">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox">
+                <div class="ibox-content">
+                    <div class="row">
+
+                        <table id="sort" class=" footable table table-stripped toggle-arrow-tiny"
+                               data-filter="#filter" data-page-size="15">
+                            <thead>
+                                <tr>
+                                    <th>Selected Bhajan List</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                @for (int i = 0; i < @Model.SelectedDocuments.Count(); i++)
+                                {
+                                    <tr>
+                                        <td>
+                                            
+                                            @Html.TextBoxFor(m => m.SelectedDocuments[i].fileName)
+                                        </td>
+                                        <td>
+                                            <div class="text-box text-primary col-md-offset-6">
+                                                @Html.TextBoxFor(m => m.SelectedDocuments[i].BhajanID, new { id = i })
+                                            </div>
+                                        </td>
+
+                                    </tr>
+                                }
+
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="6">
+                                        <input type="submit" value="Print" />
+
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>

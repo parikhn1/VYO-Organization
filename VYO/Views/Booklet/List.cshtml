@@ -1,0 +1,149 @@
+﻿@model VYO.Models.BhajanDocumentModels
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>List</h2>
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Bhajan board</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="@Url.Action("Dashboard_1", "Dashboards")">Home</a>
+            </li>
+            <li>
+                <a>Bhajan Board</a>
+            </li>
+            <li class="active">
+                <strong>Booklet</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+
+@if (Session["User"] == null)
+{
+    using (Html.BeginForm("SetProfile", "Booklet", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="col-lg-12">
+            <div>
+                <table>
+                    <thead>
+                        <tr class="form-control">
+                            <th>Enter UserName to Create Custom Index page:</th>
+                            <td><input type="text" name="UserName" id="txtUserName"></td>
+                            <td><input type="submit" id="btnSave"></td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    }
+}
+else
+{
+    using (Html.BeginForm("GetCoverPages", "Booklet", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="wrapper wrapper-content animated fadeInRight ecommerce">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox">
+                        <div class="ibox-content">
+                            <div class="row">
+
+                                <table id="footable" class="footable table table-stripped toggle-arrow-tiny" data-filter="#filter"
+                                       data-page-size="10">
+                                    <thead>
+                                        <tr>
+                                            <th>Bhajan Name/Book</th>
+                                            <th>Bhajan Type</th>
+                                            <th>Bhajan</th>
+                                            <th>Want to Select</th>
+                                            <th>Notes</th>
+                                        </tr>
+                                    </thead>
+                                    @if (@Model.VYODocumnetExploreList != null)
+                                    {
+                                        <tbody>
+                                            @foreach (var BhajanList in @Model.VYODocumnetExploreList)
+                                            {
+                                                <tr>
+                                                    <td>
+                                                        @BhajanList.ItemName
+                                                    </td>
+                                                    <td>
+                                                        @if (BhajanList.ItemName.Contains("pdf"))
+                                                        { @ViewBag.PDFBhajanType }
+                                                        else
+                                                        { @ViewBag.TextBhajanType}
+                                                    </td>
+                                                    <td>
+                                                        <button id="btnModelOpen" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#@BhajanList.ItemID">
+                                                            Open
+                                                        </button>
+                                                        <div class="modal fade" id="@BhajanList.ItemID" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content animated flipInY">
+                                                                    <div class="modal-header">
+                                                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                                        <h4 class="modal-title" id="myModalLabel">@BhajanList.ItemName</h4>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <div style="text-align: center;">
+                                                                            <iframe src="~/Documents/@BhajanList.ItemName"
+                                                                                    style="width:500px; height:500px;" frameborder="0"></iframe>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>x
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="checkbox checkbox-primary col-lg-offset-6">
+                                                            <input type="checkbox" name="SelectedBhajanList" id=@BhajanList.ItemID value="@BhajanList.ItemName" />
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        @BhajanList.SpecificationName
+                                                    </td>
+                                                </tr>
+
+                                            }
+
+                                        </tbody>
+
+                                        <tfoot>
+                                            <tr>
+                                                <td colspan="6">
+                                                    <input type="submit" name="Continue" value="Continue" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="6">
+                                                    <ul class="pagination pull-right"></ul>
+                                                </td>
+                                            </tr>
+                                        </tfoot>
+                                    }
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    }
+}
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>x
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/jquery-ui.js" type="text/javascript"></script>
+<link href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/themes/blitzer/jquery-ui.css" rel="stylesheet" type="text/css" />

@@ -1,0 +1,346 @@
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\ApplicationInsights.config
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\roslyn\csc.exe
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\roslyn\vbc.exe
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\VYO.dll.config
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\VYO.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\VYO.pdb
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Antlr3.Runtime.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\EntityFramework.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\EntityFramework.SqlServer.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AI.Web.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Security.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Newtonsoft.Json.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Owin.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\System.Web.Helpers.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\System.Web.Mvc.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\System.Web.Optimization.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\System.Web.Razor.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\System.Web.WebPages.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\WebGrease.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AI.Web.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\System.Web.Helpers.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\System.Web.Mvc.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\System.Web.Optimization.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\System.Web.Razor.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\System.Web.WebPages.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Antlr3.Runtime.pdb
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Newtonsoft.Json.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\EntityFramework.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\EntityFramework.SqlServer.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Security.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\obj\Debug\VYO.csprojResolveAssemblyReference.cache
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\obj\Debug\VYO.dll
+C:\Users\Nparikh\Documents\Visual Studio 2015\Projects\VYO\VYO\obj\Debug\VYO.pdb
+C:\Development\VYO\VYO\bin\roslyn\csc.exe
+C:\Development\VYO\VYO\bin\roslyn\csc.exe.config
+C:\Development\VYO\VYO\bin\roslyn\csc.rsp
+C:\Development\VYO\VYO\bin\roslyn\csi.exe
+C:\Development\VYO\VYO\bin\roslyn\csi.rsp
+C:\Development\VYO\VYO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Development\VYO\VYO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Development\VYO\VYO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Development\VYO\VYO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Development\VYO\VYO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Development\VYO\VYO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Development\VYO\VYO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Development\VYO\VYO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Development\VYO\VYO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Development\VYO\VYO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Development\VYO\VYO\bin\roslyn\System.AppContext.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Collections.Immutable.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Development\VYO\VYO\bin\roslyn\System.IO.FileSystem.dll
+C:\Development\VYO\VYO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Development\VYO\VYO\bin\roslyn\vbc.exe
+C:\Development\VYO\VYO\bin\roslyn\vbc.exe.config
+C:\Development\VYO\VYO\bin\roslyn\vbc.rsp
+C:\Development\VYO\VYO\bin\roslyn\VBCSCompiler.exe
+C:\Development\VYO\VYO\bin\roslyn\VBCSCompiler.exe.config
+C:\Development\VYO\VYO\bin\ApplicationInsights.config
+C:\Development\VYO\VYO\bin\VYO.dll.config
+C:\Development\VYO\VYO\bin\VYO.dll
+C:\Development\VYO\VYO\bin\VYO.pdb
+C:\Development\VYO\VYO\bin\Antlr3.Runtime.dll
+C:\Development\VYO\VYO\bin\EntityFramework.dll
+C:\Development\VYO\VYO\bin\EntityFramework.SqlServer.dll
+C:\Development\VYO\VYO\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Development\VYO\VYO\bin\Microsoft.AI.DependencyCollector.dll
+C:\Development\VYO\VYO\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Development\VYO\VYO\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Development\VYO\VYO\bin\Microsoft.AI.Web.dll
+C:\Development\VYO\VYO\bin\Microsoft.AI.WindowsServer.dll
+C:\Development\VYO\VYO\bin\Microsoft.ApplicationInsights.dll
+C:\Development\VYO\VYO\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Development\VYO\VYO\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Development\VYO\VYO\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Development\VYO\VYO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Development\VYO\VYO\bin\Microsoft.Owin.dll
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Security.dll
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Security.Google.dll
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Development\VYO\VYO\bin\Microsoft.Web.Infrastructure.dll
+C:\Development\VYO\VYO\bin\Newtonsoft.Json.dll
+C:\Development\VYO\VYO\bin\Owin.dll
+C:\Development\VYO\VYO\bin\System.Web.Helpers.dll
+C:\Development\VYO\VYO\bin\System.Web.Mvc.dll
+C:\Development\VYO\VYO\bin\System.Web.Optimization.dll
+C:\Development\VYO\VYO\bin\System.Web.Razor.dll
+C:\Development\VYO\VYO\bin\System.Web.WebPages.Deployment.dll
+C:\Development\VYO\VYO\bin\System.Web.WebPages.dll
+C:\Development\VYO\VYO\bin\System.Web.WebPages.Razor.dll
+C:\Development\VYO\VYO\bin\VYODAL.dll
+C:\Development\VYO\VYO\bin\VYODomain.dll
+C:\Development\VYO\VYO\bin\WebGrease.dll
+C:\Development\VYO\VYO\bin\MySql.Data.dll
+C:\Development\VYO\VYO\bin\VYODAL.pdb
+C:\Development\VYO\VYO\bin\VYODAL.dll.config
+C:\Development\VYO\VYO\bin\VYODomain.pdb
+C:\Development\VYO\VYO\bin\Antlr3.Runtime.pdb
+C:\Development\VYO\VYO\bin\EntityFramework.xml
+C:\Development\VYO\VYO\bin\EntityFramework.SqlServer.xml
+C:\Development\VYO\VYO\bin\Microsoft.AI.DependencyCollector.xml
+C:\Development\VYO\VYO\bin\Microsoft.AI.Web.xml
+C:\Development\VYO\VYO\bin\Microsoft.AI.WindowsServer.xml
+C:\Development\VYO\VYO\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Development\VYO\VYO\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Development\VYO\VYO\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Development\VYO\VYO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Development\VYO\VYO\bin\Microsoft.Owin.xml
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Security.xml
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Security.Google.xml
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Development\VYO\VYO\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Development\VYO\VYO\bin\Newtonsoft.Json.xml
+C:\Development\VYO\VYO\bin\System.Web.Helpers.xml
+C:\Development\VYO\VYO\bin\System.Web.Mvc.xml
+C:\Development\VYO\VYO\bin\System.Web.Optimization.xml
+C:\Development\VYO\VYO\bin\System.Web.Razor.xml
+C:\Development\VYO\VYO\bin\System.Web.WebPages.xml
+C:\Development\VYO\VYO\bin\System.Web.WebPages.Deployment.xml
+C:\Development\VYO\VYO\bin\System.Web.WebPages.Razor.xml
+C:\Development\VYO\VYO\obj\Debug\VYO.csprojResolveAssemblyReference.cache
+C:\Development\VYO\VYO\obj\Debug\VYO.dll
+C:\Development\VYO\VYO\obj\Debug\VYO.pdb
+C:\Users\nparikh\source\repos\VYO\VYO\bin\ApplicationInsights.config
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\csc.exe
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\vbc.exe
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\VBCSCompiler.exe
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nparikh\source\repos\VYO\VYO\bin\VYO.dll.config
+C:\Users\nparikh\source\repos\VYO\VYO\bin\VYO.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\VYO.pdb
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Antlr3.Runtime.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\EntityFramework.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\EntityFramework.SqlServer.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AI.Web.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.ApplicationInsights.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Security.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Newtonsoft.Json.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Owin.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Web.Helpers.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Web.Mvc.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Web.Optimization.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Web.Razor.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Web.WebPages.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Web.WebPages.Razor.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\VYODAL.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\VYODomain.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\WebGrease.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\MySql.Data.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\VYODAL.pdb
+C:\Users\nparikh\source\repos\VYO\VYO\bin\VYODAL.dll.config
+C:\Users\nparikh\source\repos\VYO\VYO\bin\VYODomain.pdb
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Antlr3.Runtime.pdb
+C:\Users\nparikh\source\repos\VYO\VYO\bin\EntityFramework.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\EntityFramework.SqlServer.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AI.Web.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.ApplicationInsights.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Security.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Newtonsoft.Json.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Web.Helpers.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Web.Mvc.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Web.Optimization.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Web.Razor.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Web.WebPages.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Web.WebPages.Razor.xml
+C:\Users\nparikh\source\repos\VYO\VYO\obj\Debug\VYO.csprojResolveAssemblyReference.cache
+C:\Users\nparikh\source\repos\VYO\VYO\obj\Debug\VYO.csproj.CoreCompileInputs.cache
+C:\Users\nparikh\source\repos\VYO\VYO\obj\Debug\VYO.dll
+C:\Users\nparikh\source\repos\VYO\VYO\obj\Debug\VYO.pdb
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\csc.exe.config
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\csc.rsp
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\csi.exe
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\csi.exe.config
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\csi.rsp
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.AppContext.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Console.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.IO.Compression.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.IO.Pipes.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Security.Claims.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Threading.Thread.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.ValueTuple.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\vbc.exe.config
+C:\Users\nparikh\source\repos\VYO\VYO\bin\roslyn\vbc.rsp
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nparikh\source\repos\VYO\VYO\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\nparikh\source\repos\VYO\VYO\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Development\VYO\VYO\bin\roslyn\csi.exe.config
+C:\Development\VYO\VYO\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Console.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Diagnostics.Process.dll
+C:\Development\VYO\VYO\bin\roslyn\System.IO.Compression.dll
+C:\Development\VYO\VYO\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Development\VYO\VYO\bin\roslyn\System.IO.Pipes.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Security.AccessControl.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Security.Claims.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Threading.Thread.dll
+C:\Development\VYO\VYO\bin\roslyn\System.ValueTuple.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Xml.XPath.dll
+C:\Development\VYO\VYO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Development\VYO\VYO\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Development\VYO\VYO\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Development\VYO\VYO\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Development\VYO\VYO\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Development\VYO\VYO\bin\DotNetZip.dll
+C:\Development\VYO\VYO\bin\DotNetZip.xml
+C:\Development\VYO\VYO\bin\MySql.Data.Entity.EF6.dll
+C:\Development\VYO\VYO\bin\PdfSharp.Charting.dll
+C:\Development\VYO\VYO\bin\PdfSharp.dll
+C:\Development\VYO\VYO\bin\PdfSharp.xml
+C:\Development\VYO\VYO\bin\PdfSharp.Charting.xml
+C:\Development\VYO\VYO\bin\de\PdfSharp.resources.dll
+C:\Development\VYO\VYO\bin\de\PdfSharp.Charting.resources.dll

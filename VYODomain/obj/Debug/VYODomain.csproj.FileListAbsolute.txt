@@ -1,0 +1,5 @@
+C:\Development\VYO\VYODomain\bin\Debug\VYODomain.dll
+C:\Development\VYO\VYODomain\bin\Debug\VYODomain.pdb
+C:\Development\VYO\VYODomain\obj\Debug\VYODomain.dll
+C:\Development\VYO\VYODomain\obj\Debug\VYODomain.pdb
+C:\Development\VYO\VYODomain\obj\Debug\VYODomain.csprojResolveAssemblyReference.cache

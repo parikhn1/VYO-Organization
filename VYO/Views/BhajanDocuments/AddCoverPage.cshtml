@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "AddCoverPage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>AddCoverPage</h2>
+<h3 style=" color:red">@ViewBag.Message</h3>
+@using (Html.BeginForm("AddCoverPage", "BhajanDocuments", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    <div class="col-lg-6">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Cover Page</h5>
+            </div>
+            <div class="ibox-content">
+                <div data-provides="fileinput">
+                    <span class="input-group-addon btn btn-default btn-file">
+                        <input type="file" name="file" id="file" />
+                    </span>
+                    <label hidden id="CoverPage">CoverPage</label>
+                    <input type="submit" value="Submit" name="CoverPage" />
+                </div>
+            </div>
+        </div>
+    </div>
+}

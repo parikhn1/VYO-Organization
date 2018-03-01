@@ -1,0 +1,40 @@
+﻿
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span>
+                        <img alt="image" width="125" src="/assets/images/VYO.png" />
+                    </span>
+
+                </div>
+                <div class="logo-element">
+                    VYO
+                </div>
+            </li>
+            <li>
+                <a href="@Url.Action("Index", "Home")"><i class="fa fa-table"></i> <span class="nav-label">Dashboard</span> </a>
+            </li>
+            @if (Session["User"] != null)
+            {
+                if (Session["User"].ToString() == "shaharvind@aol.com")
+                {
+
+                    <li>
+                        <a href="@Url.Action("Add", "BhajanDocuments")"><i class="fa fa-table"></i> <span class="nav-label">Bhajan Board</span> </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("AddCoverPage", "BhajanDocuments")"><i class="fa fa-table"></i> <span class="nav-label">Cover Page</span> </a>
+                    </li>
+
+                }
+            }
+            <li>
+                <a href="@Url.Action("List", "Booklet")"><i class="fa fa-table"></i> <span class="nav-label">Create Booklet</span> </a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+

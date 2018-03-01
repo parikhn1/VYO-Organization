@@ -1,0 +1,90 @@
+﻿@model VYO.Models.BhajanDocumentModels
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>View</h2>
+
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Bhajan board</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="@Url.Action("Dashboard_1", "Dashboards")">Home</a>
+            </li>
+            <li>
+                <a>Create Bhajan Booklet</a>
+            </li>
+            <li class="active">
+                <strong>Selected List</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox">
+            <div class="ibox-content">
+                <div class="row">
+
+                    <table id ="sort" class=" footable table table-stripped toggle-arrow-tiny"
+                           data-filter="#filter" data-page-size="15">
+                        <thead>
+                            <tr>
+                                <th>Selected Bhajan List</th>
+                                <th>Want to Keep</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @foreach(var val in Model.BhajanNameList)
+                            {
+                                <tr>
+                                    <td>
+                                        @val.Bhanjan
+                                    </td>
+                                    <td>
+                                    <td>
+                                        <div class="switch">
+                                            <div class="onoffswitch">
+                                                <input type="checkbox" checked class="onoffswitch-checkbox" id="example1">
+                                                <label class="onoffswitch-label" for="example1">
+                                                    <span class="onoffswitch-inner"></span>
+                                                    <span class="onoffswitch-switch"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    
+                                </tr>
+                            }
+                           
+                            </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="6">
+                                    <a href="/Booklet/CustomIndex" class="btn btn-default semi-circle btn-block btn-sm">
+                                    <i class="fa fa-shopping-basket mr-10"></i>Continue</a>
+
+
+                                    @*<button class="btn btn-primary btn-lg" onclick="@("window.location.href='" + @Url.Action("CoverPage", "Booklet"))" name="Continue" />
+                                    <ul class="pagination pull-right"></ul>*@
+                                </td>
+                            </tr>
+                        </tfoot>
+                        </table>
+                 </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+
+

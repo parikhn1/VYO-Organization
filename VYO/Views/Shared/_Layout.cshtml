@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VYO | @ViewBag.Title</title>
+
+    @if (IsSectionDefined("Styles"))
+    {@RenderSection("Styles", required: false)}
+
+
+    @Styles.Render("~/Content/css")
+    <!-- <link href="@Url.Content("~/Scripts/plugins/jquery-ui/jquery-ui.css")" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="@Url.Content("~/Scripts/plugins/jquery-ui/jquery-ui.css")" rel="stylesheet" type="text/css" /> -->
+    <!--  <link href = "@Url.Content("~/css/animate.css")" rel = "stylesheet" type="text/css" /> -->
+    <!--  @Scripts.Render("~/bundles/modernizr") -->
+    <!--  @Styles.Render("~/font-awesome/css")  --->
+    @Styles.Render("~/plugins/footableStyles")
+
+</head>
+
+<body>
+    <!-- Wrapper-->
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        @Html.Partial("_Navigation")
+
+        <!-- Page wraper -->
+        <div id="page-wrapper" class="gray-bg">
+
+            <!-- Top Navbar -->
+            @Html.Partial("_TopNavbar")
+
+            <!-- Main view  -->
+            @RenderBody()
+
+            <!-- Footer -->
+            @*@Html.Partial("_Footer")*@
+
+        </div>
+        <!-- End page wrapper-->
+
+    </div>
+    <!-- End wrapper-->
+
+    <script type="text/javascript" src="~/Scripts/jquery-2.1.1.min.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    @Scripts.Render("~/bundles/bootstrap")
+    <!-- @Scripts.Render("~/fonts/font-awesome") -->
+    @Scripts.Render("~/plugins/jquery-ui")
+    <!--  @Scripts.Render("~/plugins/metsiMenu") -->
+    `<link type="text/css" rel="stylesheet" href="~/Content/jquery-te-1.4.0.css">
+
+
+    <script type="text/javascript" src="~/Scripts/jquery-te-1.4.0.min.js" charset="utf-8"></script>
+
+    <script type="text/javascript" src="~/Scripts/plugin/footable/footable.all.min.js" charset="utf-8"></script>
+
+
+    @*  @Scripts.Render("~/plugins/pace")
+        @Scripts.Render("~/plugins/slimScroll")
+        @Scripts.Render("~/bundles/inspinia")
+        @Scripts.Render("~/plugins/dynamitable") *@
+    @* @Styles.Render("~/Scripts/jquery-3.2.1.min.js") *@
+    @*@Scripts.Render("~/bundles/dynamitable")
+        @Scripts.Render("~/bundles/datapicker")*@
+    @RenderSection("scripts", required: false)
+    @*@Scripts.Render("~/bundles/jquery")*@
+
+
+    <script type="text/javascript">
+
+
+        $(document).ready(function () {
+            $('input[type=text]').bind('change', function () {
+                var arr = []
+                $siblings = $(this).siblings();
+                console.log("sibling is " + $(this).siblings());
+                console.log("key is " + $(this).val());
+                var key = $(this).val();
+                $(this).siblings().each(function () {
+
+                    // $.each($siblings, function (i, key) {
+                    console.log("pushing to array");
+                    arr.push($(this).val());
+                });
+                console.log("array is " + arr.length);
+                console.log("This is" + $(this).val())
+                if ($.inArray($(this).val(), arr) !== -1) {
+                    alert("duplicate has been found");
+                }
+            });
+        });
+
+    </script>
+    <script type="text/javascript">
+
+        $("#UserLogedIn").click(function () {
+            $.ajax({
+                url: "Home/Index",
+                type: "get",
+                data: $("form").serialize(), //if you need to post Model data, use this
+                success: function (result) {
+                    $("#_Navigation").html(result);
+                }
+            });
+        })
+
+        $(document).ready(function () {
+            var fixHelperModified = function (e, tr) {
+                var $originals = tr.children();
+                var $helper = tr.clone();
+                $helper.children().each(function (index) {
+                    $(this).width($originals.eq(index).width())
+                });
+                return $helper;
+            },
+                updateIndex = function (e, ui) {
+                    $('td.index', ui.item.parent()).each(function (i) {
+                        $(this).html(i + 1);
+                    });
+                };
+
+            $("#sort tbody").sortable({
+                helper: fixHelperModified,
+                stop: updateIndex
+            }).disableSelection();
+        });
+
+
+    </script>
+
+    <script>
+        $('.jqte-test').jqte();
+
+        // settings of status
+        var jqteStatus = true;
+        $(".status").click(function () {
+            jqteStatus = jqteStatus ? false : true;
+            $('.jqte-test').jqte({ "status": jqteStatus })
+        });
+
+    </script>
+    <script type="text/javascript">
+      
+        $("#btnModelOpen").click(function () {
+            var currentId = $(this).attr('id');
+            $(currentId).modal('show');
+        });
+    </script>
+</body>
+</html>

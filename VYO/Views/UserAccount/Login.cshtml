@@ -1,0 +1,52 @@
+﻿@model VYO.Models.UserModel
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Login</h2>
+
+@if (Session["User"] == null)
+{
+    using (Html.BeginForm("ValidateUser", "UserAccount", FormMethod.Post, new {id="UserLogedIn", enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>UserModel</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.UserEmail, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.UserEmail, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.UserEmail, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.UserPassword, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.UserPassword, new { htmlAttributes = new { @class = "form-control" , @type="Password"} })
+                    @Html.ValidationMessageFor(model => model.UserPassword, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+}
+else if(Session["User"]!= null)
+{
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+               <label>Hello @Session["User"]</label>
+            </li>
+        </ul>
+
+}
